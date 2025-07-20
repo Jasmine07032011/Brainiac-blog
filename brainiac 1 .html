@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Brainiac | Jasmine Rayapan</title>
+  <style>
+    :root {
+      --neuro-blue: #0ff0fc; /* light blue glow like MRI scan */
+      --deep-black: #0a0a0a;
+      --accent-blue: #38b6ff;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to bottom right, var(--deep-black), #111927);
+      color: var(--neuro-blue);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    .cover {
+      max-width: 700px;
+      padding: 2rem;
+      background-color: rgba(0, 0, 0, 0.6);
+      border: 2px solid var(--accent-blue);
+      border-radius: 10px;
+      box-shadow: 0 0 20px var(--accent-blue);
+    }
+
+    h1 {
+      font-size: 3rem;
+      color: var(--accent-blue);
+      margin-bottom: 1rem;
+      text-shadow: 0 0 5px var(--neuro-blue);
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+      color: #c8e6ff;
+    }
+
+    a.button {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background-color: var(--neuro-blue);
+      color: #000;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background-color 0.3s, transform 0.3s;
+    }
+
+    a.button:hover {
+      background-color: #a8f3ff;
+      transform: scale(1.05);
+    }
+
+    .footer {
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <div class="cover">
+    <h1>🧠 Brainiac</h1>
+    <p>Exploring the mind, neuron by neuron.<br/>By Jasmine Rayapan</p>
+    <a class="button" href="blog.html">Enter the Blog</a>
+    <div class="footer">
+      <p>&copy; 2025 Jasmine Rayapan. All rights reserved.</p>
+    </div>
+  </div>
+</body>
+</html>
+
